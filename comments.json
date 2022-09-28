@@ -2,12 +2,12 @@
     {
         "id": 1,
         "content": "Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.",
-        "createdAt": "27 Sep 2022 10:18:00",
+        "createdAt": "25 Sep 2022 10:00:00",
         "score": 12,
         "user": {
             "image": {
                 "png": "image-amyrobson.png",
-                "webp": "./images/avatars/image-amyrobson.webp"
+                "webp": "image-amyrobson.webp"
             },
             "username": "amyrobson"
         },
@@ -16,12 +16,12 @@
     {
         "id": 2,
         "content": "Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to dive into React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!",
-        "createdAt": "20 Jan 2022",
+        "createdAt": "25 Sep 2022 20:00:00",
         "score": 5,
         "user": {
             "image": {
                 "png": "image-maxblagun.png",
-                "webp": "./images/avatars/image-maxblagun.webp"
+                "webp": "image-maxblagun.webp"
             },
             "username": "maxblagun"
         },
@@ -30,13 +30,13 @@
                 "id": 3,
                 "parentId": 2,
                 "content": "If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS before considering React. It's very tempting to jump ahead but lay a solid foundation first.",
-                "createdAt": "15 Jan 2022",
+                "createdAt": "26 Sep 2022 08:28:00",
                 "score": 4,
                 "replyingTo": "maxblagun",
                 "user": {
                     "image": {
                         "png": "image-ramsesmiron.png",
-                        "webp": "./images/avatars/image-ramsesmiron.webp"
+                        "webp": "image-ramsesmiron.webp"
                     },
                     "username": "ramsesmiron"
                 }
@@ -45,13 +45,13 @@
                 "id": 4,
                 "parentId": 2,
                 "content": "I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. But the fundamentals are what stay constant.",
-                "createdAt": "10 Jan 2022",
+                "createdAt": "26 Sep 2022 10:18:00",
                 "score": 2,
                 "replyingTo": "ramsesmiron",
                 "user": {
                     "image": {
                         "png": "image-juliusomo.png",
-                        "webp": "./images/avatars/image-juliusomo.webp"
+                        "webp": "image-juliusomo.webp"
                     },
                     "username": "juliusomo"
                 }
@@ -61,12 +61,12 @@
     {
         "id": 5,
         "content": "Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.",
-        "createdAt": "18 Jan 2022",
+        "createdAt": "27 Sep 2022 10:18:00",
         "score": 12,
         "user": {
             "image": {
                 "png": "image-amyrobson.png",
-                "webp": "./images/avatars/image-amyrobson.webp"
+                "webp": "image-amyrobson.webp"
             },
             "username": "juliusomo"
         },
