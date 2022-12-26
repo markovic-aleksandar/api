@@ -1,4 +1,4 @@
-export const stepSectionData = {
+{
   sectionPlans: [
     {
       name: 'arcade',
