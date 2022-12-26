@@ -17,7 +17,7 @@
       "icon": "icon-advanced.svg"
     },
     {
-      "name": 'pro',
+      "name": "pro",
       "price": {
         "monthly": 15,
         "yearly": 150
