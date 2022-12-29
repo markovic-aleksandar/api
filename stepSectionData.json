@@ -6,7 +6,7 @@
         "monthly": 9,
         "yearly": 90
       },
-      "icon": "icon-arcade.svg"
+      "icon": "iconArcade"
     },
     {
       "name": "advanced",
@@ -14,7 +14,7 @@
         "monthly": 12,
         "yearly": 120
       },
-      "icon": "icon-advanced.svg"
+      "icon": "iconAdvanced"
     },
     {
       "name": "pro",
@@ -22,7 +22,7 @@
         "monthly": 15,
         "yearly": 150
       },
-      "icon": "icon-pro.svg"
+      "icon": "iconPro"
     }
   ],
   "sectionAddons": [
