@@ -1,0 +1,20 @@
+[
+  {
+    "acronym": "iaea2023",
+    "name": "IAEA 2023",
+    "fullName": "48th Annual Conference of the International Association for Educational Assessment",
+    "date": "24 - 29 sep 2023",
+    "location": "Kingston",
+    "web": "https://iaea2023.org/",
+    "photo": "https://www.easyacademia.org/assets/images/conferences/7fbef7bc2a2172b2bd1453cd4bcc543f.png"
+  },
+  {
+    "acronym": "sss142024",
+    "name": "SSS14 2024",
+    "fullName": "14th International Space Syntax Symposium",
+    "date": "24 - 27 jun 2024",
+    "location": "Nicosia",
+    "web": "https://cyprusconferences.org/14sss/",
+    "photo": "https://www.easyacademia.org/assets/images/conferences/3e4d64ed721482bb77acd74f206f51f7.jpg"
+  }
+]
