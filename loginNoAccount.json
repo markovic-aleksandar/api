@@ -1,6 +1,6 @@
 {
   "data": {},
-  "errors": {"login[email]": "Account not found"},
+  "errors": {"email or username": "Account not found"},
   "info": null,
   "is_access_error": false,
   "is_error": true,
