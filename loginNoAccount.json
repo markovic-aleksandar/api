@@ -1,0 +1,8 @@
+{
+  "data": {},
+  "errors": {"login[email]": "The Email field is required.", "login[password]": "The Password field is required."},
+  "info": null,
+  "is_access_error": false,
+  "is_error": true,
+  "is_system_error": false
+}
