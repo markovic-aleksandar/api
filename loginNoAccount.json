@@ -1,6 +1,6 @@
 {
   "data": {},
-  "errors": {"login[email]": "The Email field is required.", "login[password]": "The Password field is required."},
+  "errors": {"login[email]": "Account not found"},
   "info": null,
   "is_access_error": false,
   "is_error": true,
