@@ -1,0 +1,211 @@
+{
+    "is_system_error": false,
+    "is_access_error": false,
+    "is_error": false,
+    "errors": [],
+    "message": null,
+    "action": "action:activate",
+    "data": {
+        "sidebarSettings": {
+            "title": "My Account",
+            "description": "Customize your account with ease – manage various aspects below.",
+            "sections": [
+                {
+                    "key": "personal",
+                    "endpoint": "api/account/personal",
+                    "name": "Personal Information",
+                    "title": "Personal Information",
+                    "description": "Key personal details are stored here, enabling us to recognize and address you properly.",
+                    "params": [
+                        {
+                            "key": "title",
+                            "type": "dropdown",
+                            "name": "account[personal][title]",
+                            "style": "simple",
+                            "label": "Title",
+                            "value": "2",
+                            "source": "init:titles",
+                            "props": {
+                                "width": 354
+                            }
+                        },
+                        {
+                            "key": "first_name",
+                            "type": "text",
+                            "name": "account[personal][first_name]",
+                            "style": "simple",
+                            "group": "Full Name",
+                            "placeholder": "Add your first name...",
+                            "value": "Aleksandar",
+                            "props": {
+                                "width": 354
+                            }
+                        },
+                        {
+                            "key": "last_name",
+                            "type": "text",
+                            "name": "account[personal][last_name]",
+                            "style": "simple",
+                            "placeholder": "Add your last name...",
+                            "value": "Markovic",
+                            "props": {
+                                "width": 354
+                            }
+                        },
+                        {
+                            "key": "gender",
+                            "type": "dropdown",
+                            "name": "account[personal][gender]",
+                            "style": "simple",
+                            "label": "Gender",
+                            "value": "1",
+                            "source": {
+                                "options": {
+                                    "1": "Not specified",
+                                    "2": "Female",
+                                    "3": "Male"
+                                }
+                            },
+                            "props": {
+                                "width": 354
+                            }
+                        }
+                    ]
+                },
+                {
+                    "key": "profile",
+                    "endpoint": "api/account/profile",
+                    "name": "Profile Photo",
+                    "title": "Profile Photo",
+                    "description": "Set your visual identifier within the platform – your profile photo appears where interactions occur.",
+                    "params": [
+                        {
+                            "key": "photo",
+                            "type": "image",
+                            "name": "account[profile][photo]",
+                            "value": "48ce6fb6f8223117dab7388f45bcfd7a.jpg"
+                        }
+                    ]
+                },
+                {
+                    "key": "credentials",
+                    "endpoint": "api/account/credentials",
+                    "name": "Credentials",
+                    "title": "Credentials",
+                    "description": "Access to your account is acquired through the credentials below.",
+                    "params": [
+                        {
+                            "key": "username",
+                            "type": "text",
+                            "name": "account[credentials][username]",
+                            "style": "simple",
+                            "label": "Username",
+                            "placeholder": "Choose a unique username...",
+                            "value": "aleksandar.markovic",
+                            "props": {
+                                "width": 354
+                            }
+                        },
+                        {
+                            "key": "password",
+                            "type": "password",
+                            "name": "account[credentials][password]",
+                            "style": "simple",
+                            "label": "Password",
+                            "value": "●●●●●●●●",
+                            "props": {
+                                "width": 354,
+                                "action": "tab:password-change"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "key": "emails",
+                    "endpoint": "api/account/emails",
+                    "name": "Email Adresses",
+                    "title": "Email Adresses",
+                    "description": "Associate multiple email addresses with your account below; the primary one, marked by a blue star, will serve as your default contact address.",
+                    "params": [
+                        {
+                            "key": "account_emails",
+                            "type": "collection",
+                            "name": "account[emails][account_emails]",
+                            "value": null,
+                            "source": {
+                                "items": [
+                                    {
+                                        "type": "group"
+                                    },
+                                    {
+                                        "type": "item"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "key": "work",
+                    "endpoint": "api/account/work",
+                    "name": "Work Information",
+                    "title": "Work Information",
+                    "description": "Details of your professional or academic affiliation are stored below.",
+                    "params": [
+                        {
+                            "key": "company",
+                            "type": "text",
+                            "name": "account[work][company]",
+                            "style": "simple",
+                            "label": "Institution/Company",
+                            "placeholder": "Add institution or company name...",
+                            "value": "Kragujevac",
+                            "props": {
+                                "width": 354
+                            }
+                        },
+                        {
+                            "key": "department",
+                            "type": "textarea",
+                            "name": "account[work][department]",
+                            "style": "simple",
+                            "label": "Department (optional)",
+                            "placeholder": "Add department name, if applicable...",
+                            "value": null,
+                            "props": {
+                                "width": 354,
+                                "newline": 0
+                            }
+                        },
+                        {
+                            "key": "country",
+                            "type": "dropdown",
+                            "name": "account[work][country]",
+                            "style": "simple",
+                            "label": "Country",
+                            "value": "159",
+                            "source": "init:countries",
+                            "props": {
+                                "width": 354,
+                                "height": 4,
+                                "searchable": 1
+                            }
+                        },
+                        {
+                            "key": "phone",
+                            "type": "text",
+                            "name": "account[work][phone]",
+                            "style": "simple",
+                            "label": "Contact phone",
+                            "placeholder": "Add contact phone (e.g. +1 234 567 8900)...",
+                            "value": null,
+                            "props": {
+                                "width": 354
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
