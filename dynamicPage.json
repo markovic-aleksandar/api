@@ -1,25 +1,27 @@
-"isEditable": true,
-"content": [
-  {
-    "type": "Heading",
-    "props": {
-      "align": "center",
-      "level": "2",
-      "text": "Drag-and-drop your own React components",
-      "padding": "0px",
-      "size": "xxl",
-      "id": "Heading-1687297593514"
+{
+  "isEditable": true,
+  "content": [
+    {
+      "type": "Heading",
+      "props": {
+        "align": "center",
+        "level": "2",
+        "text": "Drag-and-drop your own React components",
+        "padding": "0px",
+        "size": "xxl",
+        "id": "Heading-1687297593514"
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "align": "center",
+        "text": "Configure Puck with your own components to make change for your marketing pages without a developer.",
+        "padding": "0px",
+        "size": "m",
+        "id": "Text-1687297621556",
+        "color": "muted"
+      }
     }
-  },
-  {
-    "type": "Text",
-    "props": {
-      "align": "center",
-      "text": "Configure Puck with your own components to make change for your marketing pages without a developer.",
-      "padding": "0px",
-      "size": "m",
-      "id": "Text-1687297621556",
-      "color": "muted"
-    }
-  }
-]
+  ]
+}
