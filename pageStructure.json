@@ -1,0 +1,32 @@
+{
+  "isEditable": true,
+  "data": {
+    "sections": [
+      {
+        "type": "Section",
+        "props": {
+          "id": "Section-1687297621026",
+          "padding": "64px",
+          "rows": ["Row-2347097621022"]
+        }  
+      }
+    ],
+    "rows": [
+      {
+        "type": "Row",
+        "props": {
+          "id": "Row-2347097621022",
+          "columns": ["Column-113789456321"]
+        }
+      }
+    ],
+    "columns": [
+      {
+        "type": "Column",
+        "props": {
+          "id": "Column-113789456321"
+        }
+      }
+    ]
+  }
+}
