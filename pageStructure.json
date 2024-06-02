@@ -3,10 +3,10 @@
   "data": {
     "sections": [
       {
+        "id": "Section-1687297621026",
         "type": "Section",
         "group": "sections",
         "props": {
-          "id": "Section-1687297621026",
           "padding": "64px",
           "rows": ["Row-2347097621022"]
         }  
@@ -14,21 +14,28 @@
     ],
     "rows": [
       {
+        "id": "Row-2347097621022",
         "type": "Row",
         "group": "rows",
+        "parent": {
+          "id": "Section-1687297621026",
+          "group": "sections" 
+        },
         "props": {
-          "id": "Row-2347097621022",
           "columns": ["Column-113789456321"]
         }
       }
     ],
     "columns": [
       {
+        "id": "Column-113789456321"
         "type": "Column",
         "group": "columns",
-        "props": {
-          "id": "Column-113789456321"
+        "parent": {
+          "id": "Row-2347097621022",
+          "group": "rows" 
         }
+        "props": {}
       }
     ]
   }
