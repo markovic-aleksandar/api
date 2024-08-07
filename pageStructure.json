@@ -6,10 +6,10 @@
         "id": "Section-1687297621026",
         "type": "Section",
         "group": "sections",
+        "rows": ["Row-2347097621022"],
         "props": {
-          "padding": "64px",
-          "rows": ["Row-2347097621022"]
-        }  
+          "padding": "64px"
+        }
       }
     ],
     "rows": [
@@ -21,9 +21,8 @@
           "id": "Section-1687297621026",
           "group": "sections" 
         },
-        "props": {
-          "columns": ["Column-113789456321"]
-        }
+        "columns": ["Column-113789456321"],
+        "props": {}
       }
     ],
     "columns": [
