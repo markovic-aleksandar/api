@@ -8,7 +8,7 @@
         "group": "sections",
         "rows": ["Row-2347097621022"],
         "props": {
-          "padding": "64"
+          "padding": "64px"
         }
       }
     ],
