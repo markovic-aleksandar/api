@@ -8,8 +8,6 @@
         "group": "sections",
         "rows": ["Row-2347097621022"],
         "props": {
-          "value": "Hello Section",
-          "margin": "10px",
           "padding": "64px"
         }
       }
