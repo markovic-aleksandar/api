@@ -21,8 +21,10 @@
           "id": "Section-1687297621026",
           "group": "sections" 
         },
-        "columns": [],
-        "props": {}
+        "columns": ["Column-113789456321"],
+        "props": {
+          "padding": "64px"
+        }
       }
     ],
     "columns": [
