@@ -21,7 +21,7 @@
           "id": "Section-1687297621026",
           "group": "sections" 
         },
-        "columns": ["Column-113789456321"],
+        "columns": ["Column-113789456321", "Column-274000371976"],
         "props": {
           "padding": "64px"
         }
@@ -37,7 +37,19 @@
           "group": "rows"
         },
         "modules": [],
-        "columnType": "1_1",
+        "columnType": "1_2",
+        "props": {}
+      },
+      {
+        "id": "Column-274000371976",
+        "type": "Column",
+        "group": "columns",
+        "parent": {
+          "id": "Row-2347097621022",
+          "group": "rows"
+        },
+        "modules": [],
+        "columnType": "1_2",
         "props": {}
       }
     ]
