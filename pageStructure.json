@@ -8,7 +8,40 @@
         "group": "sections",
         "rows": ["Row-2347097621022"],
         "props": {
-          "padding": "64px"
+          "padding": "64px",
+          "global": {
+            "linkUrl": "",
+            "linkTarget": "_self",
+            "adminLabel": "Section"
+          },
+          "style": {
+            "responsive": {
+              "desktop": {
+                "padding": {
+                  "top": 54,
+                  "bottom": 54,
+                  "left": 0,
+                  "right": 0
+                }
+              },
+              "tablet": {
+                "padding": {
+                  "top": 50,
+                  "bottom": 50,
+                  "left": 0,
+                  "right": 0
+                }
+              },
+              "phone": {
+                "padding": {
+                  "top": 40,
+                  "bottom": 40,
+                  "left": 0,
+                  "right": 0
+                }
+              }
+            }
+          }
         }
       }
     ],
