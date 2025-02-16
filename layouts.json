@@ -1,0 +1,34 @@
+{
+  "sections": [
+    {
+      "id": "Section-1687297621026",
+      "type": "Section",
+      "group": "sections",
+      "rows": [],
+      "props": {
+        "global": {
+          "linkUrl": "",
+          "linkTarget": "_self",
+          "adminLabel": "Section"
+        },
+        "style": {
+          "responsive": {
+            "desktop": {
+              "padding": {top: "50px", bottom: "50px", left: "50px", right: "50px"}
+            },
+            "tablet": {
+              "padding": {top: "50px", bottom: "50px", left: 0, right: 0}
+            },
+            "phone": {
+              "padding": {top: "50px", bottom: "50px", left: 0, right: 0}
+            }
+          },
+          "backgroundColor": '#ffffff'
+        }
+      }
+    }
+  ],
+  "rows": [],
+  "columns": [],
+  "modules": []
+}
