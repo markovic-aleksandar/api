@@ -23,7 +23,7 @@
               "padding": {"top": "50px", "bottom": "50px", "left": 0, "right": 0}
             }
           },
-          "backgroundColor": '#ffffff'
+          "backgroundColor": "#ffffff"
         }
       }
     }
