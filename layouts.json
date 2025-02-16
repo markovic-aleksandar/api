@@ -14,13 +14,13 @@
         "style": {
           "responsive": {
             "desktop": {
-              "padding": {top: "50px", bottom: "50px", left: "50px", right: "50px"}
+              "padding": {"top": "50px", "bottom": "50px", "left": "50px", "right": "50px"}
             },
             "tablet": {
-              "padding": {top: "50px", bottom: "50px", left: 0, right: 0}
+              "padding": {"top": "50px", "bottom": "50px", "left": 0, "right": 0}
             },
             "phone": {
-              "padding": {top: "50px", bottom: "50px", left: 0, right: 0}
+              "padding": {"top": "50px", "bottom": "50px", "left": 0, "right": 0}
             }
           },
           "backgroundColor": '#ffffff'
